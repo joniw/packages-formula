@@ -1,6 +1,16 @@
 # -*- coding: utf-8 -*-
 # vim: ft=yaml
 ---
+Alpine:
+  pips:
+    required:
+      pkgs:
+        - py3-pip
+  gems:
+    required:
+      pkgs:
+        - ruby
+
 Suse:
   pips:
     required:
